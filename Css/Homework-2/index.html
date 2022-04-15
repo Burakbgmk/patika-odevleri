@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+
+    <style>
+        .center-image{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        section *{
+            text-align: center;
+        }
+        section{
+            background-color:rgb(214, 214, 214);
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .flex-container{
+            display: flex;
+            flex-flow: wrap;
+            justify-content: stretch;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .left-nav{
+            width: 35%;
+            background-color: rgba(0, 255, 255, 0.582);
+        }
+        .middle-nav{
+            width: 25%;
+            background-color: rgba(0, 255, 255, 0.767);
+        }
+        .right-nav{
+            margin-right: 0px;
+            width: 40%;
+            background-color: aqua;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <!-- Header - Start -->
+    <header>
+        <img class="center-image" src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="google">
+    </header>
+    <!-- Header - End -->
+
+    <!-- Content - Start -->
+    <section>
+        <form>
+            <label for="">Search the web using Google!</label>
+            <br>
+            <input type="text" size="50"> <br>
+            <button>Google Search</button>
+            <button>I'm feeling lucky</button>
+        </form>
+    </section>
+    <!-- Content - End -->
+
+    <!-- Footer - Start -->
+    <footer>
+        <nav>
+            <div class="flex-container">
+                <!-- LeftNav -->
+                <div class="left-nav">
+                    <ul type="none" style="list-style-position: inside;">
+                        <li><a href="">Special Searches</a></li>
+                        <li><a href="">Stanford Search</a></li>
+                        <li><a href="">Linux Search</a></li>
+                    </ul>
+                </div>
+                <!-- MiddleNav -->
+                <div class="middle-nav">
+                    <ul type="none" style="list-style-position: inside;">
+                        <li><a href="">Help!</a></li>
+                        <li><a href="">About Google!</a></li>
+                        <li><a href="">Company Info</a></li>
+                        <li><a href="">Google! Logos</a></li>
+                    </ul>
+                </div>
+                <!-- RightNav -->
+                <div class="right-nav">
+                    <form style="text-align: center;">
+                        <label for="">Get Google! <br> updates monthly: </label>
+                        <br>
+                        <input type="text" placeholder="your e-mail">
+                        <br>
+                        <button>Subscribe</button>
+                        <a href="">Archive</a>
+                    </form>
+                </div>
+            </div>
+            <p style="text-align: center;">Copyright ©1998 Google Inc.</p>
+        </nav>
+    </footer>
+    <!-- Footer - End -->
+    
+</body>
+</html>
