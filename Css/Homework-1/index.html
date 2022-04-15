@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa - Gitarlarım</title>
+
+    <style>
+        body{
+            text-align: center;
+            background-color: rgba(30, 143, 255, 0.493);
+        }
+        #site-name{
+            font-family: monospace;
+            font-size: 45px;
+            color: blue;
+            margin: auto;
+            text-align: center;
+            background-color: rgb(246, 255, 127);
+        }
+        .tab-name{
+            font-family: monospace;
+            font-size: 30px;
+            color: red;
+            margin: auto;
+            text-align: center;
+        }
+        .flex-container{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: rgb(253, 229, 11);
+        }
+    </style>
+
+    
+</head>
+<body>
+    <!-- NavBar - Start -->
+    <header>
+        <h1 id="site-name">Gitarlarım</h1>
+        <nav>
+            <div class="flex-container">
+                <div><a href="index.html">Ana Sayfa</a></div>
+                <div><a href="about-us.html">Hakkımızda</a></div>
+                <div><a href="contact.html">İletişim</a></div>
+            </div>
+        </nav>
+        <h1 class="tab-name">Ana Sayfa</h1>
+    </header>
+    <!-- NavBar - End -->
+
+    <!-- Content - Start -->
+    <section>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBDL8FxAJzAVSh5U5icU3OPI1runHn8ugNMQ&usqp=CAU" alt="anasayfa-resim">
+        </figure>
+        <!-- Articles - Start -->
+        <article>
+            <p>Her çeşit ve fiyatta bulabileceğiniz gitarlarımızı ve ekipmanlarımızı inceleyebileceğiniz sitemize hoşgeldiniz!</p>
+            <p>Sitemizde bulunan ürünler: </p>
+            <ul type="none">
+                <li><a href="guitars.html">Elektro gitarlar</a></li>
+                <li><a href="pedals.html">Pedallar</a></li>
+                <li><a href="amps.html">Amfiler</a></li>
+            </ul>
+            <hr>
+
+        </article>
+        <!-- Articles - End -->
+    </section>
+    <!-- Content - End -->
+
+    <!-- Footer - Start -->
+    <footer>
+        <nav>
+            <ul type="none">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about-us.html">Hakkımızda</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <!-- Footer - End -->
+</body>
+</html>
